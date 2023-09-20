@@ -9,7 +9,7 @@ public class StartPosition : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = new Vector3((float)-6.65, (float)0.5, -8);
+        transform.position = new Vector3((float)-6.65, (float)0.752, -8);
     }
 
     // Update is called once per frame

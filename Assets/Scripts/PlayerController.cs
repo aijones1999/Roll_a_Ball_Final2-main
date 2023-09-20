@@ -4,6 +4,21 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
 
+public class StartPosition : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        transform.position = new Vector3((float)-6.65, (float)0.5, -8);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+}
+
 public class PlayerController : MonoBehaviour
 {
     public float speed;
